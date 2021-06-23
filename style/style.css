@@ -13,8 +13,8 @@ img{
 
 .my-form{
     border: 0;
+    border-radius: 0;
     border-bottom: 1px solid black;
-    padding-bottom: 30px;
 }
 
 .btn-acqua{
