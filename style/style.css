@@ -11,3 +11,14 @@ img{
     background-color: rgb(36, 148, 148);
 }
 
+.my-form{
+    border: 0;
+    border-bottom: 1px solid black;
+    padding-bottom: 30px;
+}
+
+.btn-acqua{
+    color: #fff;
+    border-color:rgb(36, 148, 148);
+    background-color: rgb(36, 148, 148);
+}
