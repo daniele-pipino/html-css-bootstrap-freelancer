@@ -10,94 +10,48 @@
     <title>Document</title>
 </head>
 <body>
-    <header class="container-fluid dashed">
-        header 
-    </header>
-    <main>
-        <!-- jumbotron -->
-        <section id="jumbotron">
-            <div class="container-fluid dashed">
-                <div class="row">
-                    <div class="col-6 offset-3 dashed t-center">Start Bootstrap</div>
-                    <div class="col-6 offset-3 dashed t-center">------------stella-----------</div>
-                    <div class="col-6 offset-3 dashed t-center">Graphic artist- web developer- illustrator</div>
-                </div>
-            </div>
-        </section>
-        <!-- portfolio -->
-        <section id="portfolio">
-            <div class="container">
-                <div class="row g-5">
-                    <div class="col-12 t-center dashed">PORTFOLIO</div>
-                    <div class="col-12 col-md-6 col-lg-4 dashed">1</div>
-                    <div class="col-12 col-md-6 col-lg-4 dashed">2</div>
-                    <div class="col-12 col-md-6 col-lg-4 dashed">3</div>
-                    <div class="col-12 col-md-6 col-lg-4 dashed">4</div>
-                    <div class="col-12 col-md-6 col-lg-4 dashed">5</div>
-                    <div class="col-12 col-md-6 col-lg-4 dashed">6</div>
-                </div>
-            </div>
-        </section> 
-
-        <!-- about section -->
-
-        <section class="about">
-            <div class="container">
-                <div class="row g-3">
-                    <div class="col-12 dashed t-center">
-                        ABOUT
-                    </div>
-                    <div class="col-12-sm col-md-6 dashed t-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis modi non obcaecati nisi doloremque, expedita ipsam quo necessitatibus soluta quaerat fuga culpa sapiente omnis molestiae earum, natus temporibus hic voluptatum.</div>
-                    <div class="col-12-sm col-md-6 dashed t-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur totam quo culpa veritatis, ab saepe dolor, molestiae voluptates doloribus repellat nostrum voluptatibus perferendis quod at ex dolores neque explicabo animi.</div>
-                    <div class="col-4 offset-4 t-center dashed">Download</div>
-                </div> 
-            </div>
-        </section>
-        <!-- contact section -->
-        <section id="contact">
-            <div class="container dashed">
-                <div class="row ">
-                    <div class="col-12 dashed">CONTACT ME</div>
-                    <div class="col-12 dashed">Name</div>
-                    <div class="col-12 dashed">Email address</div>
-                    <div class="col-12  dashed">Phone number</div>
-                    <div class="col-12  dashed">Message</div>
-                </div>
-            </div>
-        </section>
-    </main>
-    <!-- footer -->
-    <footer>
-        <div class="container">
-            <div class="row ">
-                <div class="col-12-sm col-md-4 dashed t-center">
-                    <div class="location">
-                        <h3>LOCATION</h3>
-                        <p>2215 John Daniel drive clark</p>
-                        <p>MO 54243</p>
-                    </div>
-                </div>
-                <div class="col-12-sm col-md-4 dashed t-center">
-                    <div class="around-the-web ">
-                        <h3>Around The Web</h3>
-                        <i class="bi bi-facebook"></i>
-                        <i class="bi bi-google"></i>
-                        <i class="bi bi-twitter"></i>
-                        <i class="bi bi-linkedin"></i>
-                        
-                    </div>
-                </div>
-                <div class="col-12-sm col-md-4 dashed t-center">
-                    <div class="about-freelance">
-                        <h3>About Freelancer</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, qui hic eaque autem laudantium eligendi molestiae odio ipsum.</p>
-                    </div>
-                </div>
-                <div class="col-12 dashed t-center">Designed with love by Booleaners</div>
-            </div>
+   <!-- header -->
+   <header>
+       <!-- nav -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-blue">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">START BOOTSTRAP</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse flex-grow-0" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
         </div>
-    </footer>
-    
-
+      </nav>
+      <!-- jumbo section -->
+      <section id="jumbo" class="text-white pt-4 text-center bg-acqua">
+          <div class="container">
+              <div class="row">
+                  <div class="col-6 offset-3">
+                      <img src="./img/avatar.svg" alt="">
+                  </div>
+                  <div class="col-6 offset-3">
+                      <h1 class="mt-4 fs-3">START BOOTSTRAP</h1>
+                  </div>
+                  <div class="col-6 offset-3 d-flex align-items-center">
+                      <div class=" col-5 bg-body" style="height: 5px;"></div>
+                      <i class=" col-2 bi bi-star-fill fs-1"></i>
+                      <div class=" col-5 bg-body" style="height: 5px;"></div>
+                  </div>
+              </div>
+          </div>
+      </section>
+   </header>
 </body>
 </html>
